@@ -14,4 +14,8 @@ public class Math {
     public int mult(int a, int b) {
         return a * b;
     }
+
+    public double sqrt(int a) {
+        return java.lang.Math.sqrt(a);
+    }
 }
